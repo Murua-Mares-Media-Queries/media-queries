@@ -1,3 +1,8 @@
 body {
     background:palegreen
+
+}
+
+.alert-info {
+    background-color: blue;
 }
