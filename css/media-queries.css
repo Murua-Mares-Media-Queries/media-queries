@@ -60,5 +60,12 @@ nav {
     font-style: italic;
     float: left;
 }
-
+.header-img{
+    margin: auto;
+    display:inline;
+}
+.social-media-links{
+    display:flex;
+    padding: 0;
+    float: right;
 
