@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     width: 100%;
     margin: 0;
@@ -32,6 +33,7 @@ nav {
     align-self: flex-end;
 }
 
+
 .nav-links {
     list-style-type: none;
     display: flex;
@@ -58,5 +60,6 @@ nav {
     font-style: italic;
     float: left;
 }
+
 
 
