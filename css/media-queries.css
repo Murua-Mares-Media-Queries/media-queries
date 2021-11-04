@@ -1,23 +1,62 @@
-html {
+* {
     box-sizing: border-box;
 }
 
-/** {box-sizing: border-box;}*/
-
 body {
+    width: 100%;
     margin: 0;
-    padding: 0;
+    padding: 16px;
     font-family: 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
 }
 
+.hidden-on-desktop {
+    display: none;
+}
+/** {box-sizing: border-box;}*/
 
-.nav {
-    list-style-type: none;
-    display: flex;
-    padding: 0;
-    margin: 0;
+/*body {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    font-family: 'Trebuchet MS', sans-serif;*/
+
+
+h1 {
+    width: 65%;
+
+}
+
+nav {
+    width:35%;
+    align-self: flex-end;
 }
 
 .nav-links {
-    display: inline-block;
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin-left: 0;
+    justify-content: space-between;
+
 }
+
+
+
+
+#main {
+    display: inline-block;
+    width: 50%;
+}
+
+.main {
+    float: left;
+}
+
+.sub-section {
+    width: 50%;
+    font-style: italic;
+    float: left;
+}
+
+
